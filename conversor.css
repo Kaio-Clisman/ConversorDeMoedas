@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Kulim Park', sans-serif;
+  font-weight: bold;
+  outline: none;
+  color: black;
+}
+
+body{
+  width:100vw;
+  height: 100vh;
+  background-image: url('https://wallpaperaccess.com/full/511445.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container{
+  width: 270px;
+  height: 320px;
+  border-radius: 12px;
+  flex-direction: column;
+  display: flex;
+  background-color: #9393e0;
+  padding: 0px 30px 45px 30px;
+  box-shadow: -10px -10px 30px rgb(153, 142, 142), 10px 10px 30px #AEAEC040;
+}
+
+.header{
+  width: 220px;
+  padding: 18px;
+  margin: 0 auto;
+  margin-top: -30px;
+  margin-bottom: 25px;
+  background-color: #f0f0f3;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: -10px -10px 30px #FFF,
+10px 10px 30px #AEAEC040;
+  font-size: 18px;
+}
+
+.subTitle{
+  padding: 12px 0px;
+  font-size: 15px;
+}
+
+.primaryInput{
+  padding: 12px;
+  border-radius: 18px;
+  border: none;
+  outline: none;
+  background-color: #F0F0F3;
+  box-shadow: -10px -10px 10px #FFFFFF70, 10px 10px 10px #AEAEC020;
+}
+
+button{
+  padding: 14px;
+  font-size: 15px;
+  background-color: #F0F0F3;
+  border: 0px;
+  border-radius: 30px;
+  margin: 20px 0px;
+  cursor: pointer;
+  box-shadow: -10px -10px 30px rgb(100, 94, 94),
+10px 10px 30px #AEAEC040;
+}
+
+button:active{
+  
+  background-color: #F0F0F3;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.0), 0 6px 6px rgba(0,0,0,0.20);
+}
+
+#result{
+  text-align: center;
+
+}
+
+
+@keyframes floating{
+  to{
+    bottom: 40px;
+  }
+  50%{
+    bottom: 50px;
+  }
+  from{
+    bottom: 40px;
+  }
+}
